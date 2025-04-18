@@ -1,14 +1,14 @@
 {
-  "name":"My custom module",
+  "name":"Cardinal - Host Param OSC",
   "type":"OSC",
   "path":"Custom",
   
-  "version":"1.0.0",
-  "description":"My module description",
-  "url":"https://github.com/tommag/Sample-Chataigne-module",
-  "downloadURL":"https://github.com/tommag/Sample-Chataigne-module/archive/master.zip",
+  "version":"0.0.1",
+  "description":"Module to control Cardinal host param module in its standalone version",
+  "url":"https://github.com/gniluje/Cardinal-Modular-Synth-Chataigne-module",
+  "downloadURL":"https://github.com/gniluje/Cardinal-Modular-Synth-Chataigne-module/archive/master.zip",
 
-  "hasInput":true,
+  "hasInput":false,
   "hasOutput":true, 
 
   "hideDefaultCommands":false,
@@ -16,9 +16,9 @@
   "defaults":
   {	
     "autoAdd":false,
-    "oscInput":
+    "oscOutput":
     {
-      "localPort":9001
+      "localPort":2228
     }
   },
 
@@ -34,14 +34,83 @@
 
   "scripts": 
   [
-    "moduleScript.js"
+    "cardinal.js"
   ],
 
-  "values":
-  {
-    "Module value":
-    {
-      "type":"Float"
+"values": {
+    "CV Outputs": {
+      "Output 1": {
+        "type": "Float"
+      },
+      "Output 2": {
+        "type": "Float"
+      },
+      "Output 3": {
+        "type": "Float"
+      },
+      "Output 4": {
+        "type": "Float"
+      },
+      "Output 5": {
+        "type": "Float"
+      },
+      "Output 6": {
+        "type": "Float"
+      },
+      "Output 7": {
+        "type": "Float"
+      },
+      "Output 8": {
+        "type": "Float"
+      },
+      "Output 9": {
+        "type": "Float"
+      },
+      "Output 10": {
+        "type": "Float"
+      },
+      "Output 11": {
+        "type": "Float"
+      },
+      "Output 12": {
+        "type": "Float"
+      },
+      "Output 13": {
+        "type": "Float"
+      },
+      "Output 14": {
+        "type": "Float"
+      },
+      "Output 15": {
+        "type": "Float"
+      },
+      "Output 16": {
+        "type": "Float"
+      },
+      "Output 17": {
+        "type": "Float"
+      },
+      "Output 18": {
+        "type": "Float"
+      },
+      "Output 19": {
+        "type": "Float"
+      },
+      "Output 20": {
+        "type": "Float"
+      },
+      "Output 21": {
+        "type": "Float"
+      },
+      "Output 22": {
+        "type": "Float"
+      },
+      "Output 23": {
+        "type": "Float"
+      },
+      "Output 24": {
+        "type": "Float"
+      }
     }
   },
 

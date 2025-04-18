@@ -1,7 +1,7 @@
 # Cardinal-Modular-Synth-Chataigne-module
 
 Module to control Cardinal "host param" module in its standalone version through OSC.
-Cardinal is a A fully free and self-contained modular synthesizer based on the popular VCV Rack (https://cardinal.kx.studio/)
+Cardinal is a fully free and self-contained modular synthesizer based on the popular VCV Rack (https://cardinal.kx.studio/)
 
 in Cardinal :
 
