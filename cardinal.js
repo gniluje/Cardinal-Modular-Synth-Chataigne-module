@@ -1,5 +1,5 @@
 function init() {
-  script.log("Custom module init");
+  script.log("Cardinal module init");
 }
 
 
@@ -9,6 +9,8 @@ function moduleParameterChanged(param) {
 
 function moduleValueChanged(value) {
   script.log(value.name + " value changed, new value: " + value.get());
+  iD = parseInt(value.name.substring(6,8)) - 1;
+  local.send("/host-param",iD,value.get()) ;
 }
 
 // This is the callback function for the "Custom command" command

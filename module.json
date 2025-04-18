@@ -11,16 +11,23 @@
   "hasInput":false,
   "hasOutput":true, 
 
-  "hideDefaultCommands":false,
+  "hideDefaultCommands":true,
   
-  "defaults":
-  {	
-    "autoAdd":false,
-    "oscOutput":
-    {
-      "localPort":2228
-    }
-  },
+	"defaults":
+	{		
+		"baudRate":115200,
+		"autoAdd":false,
+    "autoFeedback":true,
+		"OSC Input":
+		{
+			"localPort":9001
+		},
+		"OSC Outputs": {
+			"OSC Output": {
+				"remotePort": 2228
+			}
+		}
+	},
 
   "parameters":
   {
@@ -30,87 +37,145 @@
     }
   },
 
-  "hideDefaultParameters": [ "autoAdd", "oscInput/localPort"],
+  "hideDefaultParameters":
+	[
+		"moduleParam",
+    "clearvalues",
+    "colorSendMode",
+    "autoAdd",
+		"splitArguments",
+		"autoRange",
+		"autoFeedback",
+    "useHierarchy",
+    "booleanSendMode",
+    "moduleParam"
+	],
 
   "scripts": 
   [
     "cardinal.js"
   ],
 
-"values": {
-    "CV Outputs": {
+  "values": {
       "Output 1": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 2": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 3": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 4": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 5": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 6": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 7": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 8": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 9": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 10": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 11": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 12": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 13": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 14": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 15": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 16": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 17": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 18": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 19": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 20": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 21": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 22": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 23": {
-        "type": "Float"
+        "type": "Float",
+        "min" : -10,
+        "max" : 10
       },
       "Output 24": {
-        "type": "Float"
-      }
+        "type": "Float",
+        "min" : -10,
+        "max" : 10     
     }
   },
 
